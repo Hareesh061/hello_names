@@ -27,6 +27,7 @@ Step 2. cd backend
 pip install -r requirements.txt
 
 uvicorn main:app --reload --port 8000
+
 ---
 
 ## **How to Run the Frontend**
@@ -38,6 +39,7 @@ npm install
 npm run dev
 
 **Note:** If any errors show related to Tailwind, then install Tailwind CSS before running the frontend.
+
 ---
 
 Backend URL:
@@ -54,6 +56,7 @@ http://localhost:5173
 Backend: 8000
 
 Frontend: 5173
+
 ---
 
 **API Endpoints**
@@ -65,6 +68,7 @@ POST	 /api/names	 Add a new name
 GET 	 /api/names	 Fetch all names
 
 DELETE	 /api/names	 Clear all names
+
 ---
 
 
@@ -75,6 +79,7 @@ Data is stored in memory (resets when the backend restarts).
 Only letters and spaces are allowed in the name field.
 
 Validation + toast notifications are displayed for all actions.
+
 ---
 
 
@@ -89,6 +94,7 @@ Delete individual names
 Improved UI components (modal, toasts, animations)
 
 Add Docker support for backend + frontend
+
 ---
 
 

@@ -18,18 +18,23 @@ The backend stores data in memory, and the frontend communicates with it using R
 
 ---
 
-## ▶️ How to Run the code
+## ▶️ How to Run the Code
 
 Step 1. Clone the repo
 
 Step 2. cd backend
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload --port 8000
 
 
 ## **How to Run the Frontend**
+
 cd frontend
+
 npm install
+
 npm run dev
 
 Backend URL:
